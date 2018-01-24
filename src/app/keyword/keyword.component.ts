@@ -8,7 +8,7 @@ import { ActivatedRoute,Router} from '@angular/router';
   styleUrls: ['./keyword.component.css']
 })
 export class KeywordComponent implements OnInit {
-@Input() keyword:Keyword;
+@Input() keyword:Keyword[];
   constructor(private keywordService:KeywordService,private myRoute:Router, private activateRoute:ActivatedRoute) { 
 
   }
